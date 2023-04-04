@@ -15,13 +15,12 @@ export class AuthenticationController {
 
   @UseGuards(LocalAuthGuard)
   @Post('/login')
-  async login(@Request() req): Promise<void> {
-  }
+  async login(@Request() req): Promise<void> {}
 
   //Get / logout
   @Post('/logout')
   logout(@Request() req): any {
     req.session.destroy();
-    return { msg: 'The user session has ended' }
+    return { msg: 'The user session has ended' };
   }
 }
