@@ -26,7 +26,7 @@
 
 You can check the requests by importing `insomnia.json` to your ![insomnia](https://insomnia.rest).
 
-Sample URL: https://my-authorized-api.up.railway.app
+Sample URL: https://revou-auth.agus.dev
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
